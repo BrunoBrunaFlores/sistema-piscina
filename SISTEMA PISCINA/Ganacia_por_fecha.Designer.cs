@@ -46,11 +46,11 @@
             // 
             this.LblFecha.AutoSize = true;
             this.LblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblFecha.Location = new System.Drawing.Point(122, 33);
+            this.LblFecha.Location = new System.Drawing.Point(51, 29);
             this.LblFecha.Name = "LblFecha";
-            this.LblFecha.Size = new System.Drawing.Size(69, 20);
+            this.LblFecha.Size = new System.Drawing.Size(210, 20);
             this.LblFecha.TabIndex = 1;
-            this.LblFecha.Text = "FECHA";
+            this.LblFecha.Text = "Seleccione la fecha a ver";
             // 
             // label2
             // 

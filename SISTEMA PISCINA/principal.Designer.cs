@@ -89,9 +89,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(308, -4);
+            this.pictureBox1.Location = new System.Drawing.Point(432, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 111);
+            this.pictureBox1.Size = new System.Drawing.Size(174, 105);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -105,7 +105,7 @@
             this.tabControl1.Location = new System.Drawing.Point(2, 101);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(780, 318);
+            this.tabControl1.Size = new System.Drawing.Size(1045, 371);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -128,7 +128,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(772, 290);
+            this.tabPage1.Size = new System.Drawing.Size(1037, 343);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "REGISTRAR";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -168,7 +168,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(630, 215);
+            this.button1.Location = new System.Drawing.Point(914, 284);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(115, 53);
             this.button1.TabIndex = 25;
@@ -183,23 +183,23 @@
             this.GrpEspecifica.Controls.Add(this.label17);
             this.GrpEspecifica.Controls.Add(this.label16);
             this.GrpEspecifica.Enabled = false;
-            this.GrpEspecifica.Location = new System.Drawing.Point(545, 31);
+            this.GrpEspecifica.Location = new System.Drawing.Point(829, 21);
             this.GrpEspecifica.Name = "GrpEspecifica";
-            this.GrpEspecifica.Size = new System.Drawing.Size(200, 120);
+            this.GrpEspecifica.Size = new System.Drawing.Size(200, 162);
             this.GrpEspecifica.TabIndex = 24;
             this.GrpEspecifica.TabStop = false;
-            this.GrpEspecifica.Text = "ESPECIFICA";
+            this.GrpEspecifica.Text = "ESPECIFICAR";
             // 
             // txtPrecioEspecifi
             // 
-            this.txtPrecioEspecifi.Location = new System.Drawing.Point(32, 85);
+            this.txtPrecioEspecifi.Location = new System.Drawing.Point(32, 113);
             this.txtPrecioEspecifi.Name = "txtPrecioEspecifi";
             this.txtPrecioEspecifi.Size = new System.Drawing.Size(132, 21);
             this.txtPrecioEspecifi.TabIndex = 3;
             // 
             // txtNombreEspecifi
             // 
-            this.txtNombreEspecifi.Location = new System.Drawing.Point(32, 32);
+            this.txtNombreEspecifi.Location = new System.Drawing.Point(32, 48);
             this.txtNombreEspecifi.Name = "txtNombreEspecifi";
             this.txtNombreEspecifi.Size = new System.Drawing.Size(132, 21);
             this.txtNombreEspecifi.TabIndex = 2;
@@ -207,7 +207,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(79, 69);
+            this.label17.Location = new System.Drawing.Point(29, 95);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(42, 15);
             this.label17.TabIndex = 1;
@@ -216,7 +216,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(75, 16);
+            this.label16.Location = new System.Drawing.Point(29, 30);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(52, 15);
             this.label16.TabIndex = 0;
@@ -226,7 +226,7 @@
             // 
             this.txtObservaciones.Location = new System.Drawing.Point(149, 212);
             this.txtObservaciones.Name = "txtObservaciones";
-            this.txtObservaciones.Size = new System.Drawing.Size(189, 21);
+            this.txtObservaciones.Size = new System.Drawing.Size(300, 21);
             this.txtObservaciones.TabIndex = 21;
             // 
             // txtSaldo
@@ -275,10 +275,10 @@
             this.rdoEspecifica.AutoSize = true;
             this.rdoEspecifica.Location = new System.Drawing.Point(363, 67);
             this.rdoEspecifica.Name = "rdoEspecifica";
-            this.rdoEspecifica.Size = new System.Drawing.Size(93, 19);
+            this.rdoEspecifica.Size = new System.Drawing.Size(102, 19);
             this.rdoEspecifica.TabIndex = 15;
             this.rdoEspecifica.TabStop = true;
-            this.rdoEspecifica.Text = "ESPECIFICA";
+            this.rdoEspecifica.Text = "ESPECIFICAR";
             this.rdoEspecifica.UseVisualStyleBackColor = true;
             this.rdoEspecifica.CheckedChanged += new System.EventHandler(this.rdoEspecifica_CheckedChanged);
             // 
@@ -317,7 +317,7 @@
             // 
             this.txtNombres.Location = new System.Drawing.Point(149, 18);
             this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(189, 21);
+            this.txtNombres.Size = new System.Drawing.Size(307, 21);
             this.txtNombres.TabIndex = 7;
             // 
             // label11
@@ -337,14 +337,14 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(772, 290);
+            this.tabPage2.Size = new System.Drawing.Size(1037, 343);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "LISTA";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // btnSalida
             // 
-            this.btnSalida.Location = new System.Drawing.Point(642, 244);
+            this.btnSalida.Location = new System.Drawing.Point(908, 292);
             this.btnSalida.Name = "btnSalida";
             this.btnSalida.Size = new System.Drawing.Size(124, 45);
             this.btnSalida.TabIndex = 2;
@@ -358,7 +358,7 @@
             this.tblListaTemporal.Location = new System.Drawing.Point(6, 61);
             this.tblListaTemporal.Name = "tblListaTemporal";
             this.tblListaTemporal.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.tblListaTemporal.Size = new System.Drawing.Size(760, 180);
+            this.tblListaTemporal.Size = new System.Drawing.Size(1028, 180);
             this.tblListaTemporal.TabIndex = 1;
             // 
             // groupBox2
@@ -371,14 +371,14 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(6, 6);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(760, 49);
+            this.groupBox2.Size = new System.Drawing.Size(1028, 49);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Buscar";
             // 
             // txtBuscaFecha
             // 
-            this.txtBuscaFecha.Location = new System.Drawing.Point(639, 17);
+            this.txtBuscaFecha.Location = new System.Drawing.Point(922, 20);
             this.txtBuscaFecha.Name = "txtBuscaFecha";
             this.txtBuscaFecha.Size = new System.Drawing.Size(100, 21);
             this.txtBuscaFecha.TabIndex = 5;
@@ -386,7 +386,7 @@
             // 
             // txtBuscaCandado
             // 
-            this.txtBuscaCandado.Location = new System.Drawing.Point(414, 17);
+            this.txtBuscaCandado.Location = new System.Drawing.Point(540, 17);
             this.txtBuscaCandado.Name = "txtBuscaCandado";
             this.txtBuscaCandado.Size = new System.Drawing.Size(100, 21);
             this.txtBuscaCandado.TabIndex = 4;
@@ -403,16 +403,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(565, 20);
+            this.label3.Location = new System.Drawing.Point(841, 23);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "Hora y fecha";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(338, 20);
+            this.label2.Location = new System.Drawing.Point(454, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 15);
             this.label2.TabIndex = 1;
@@ -421,7 +422,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 20);
+            this.label1.Location = new System.Drawing.Point(36, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 15);
             this.label1.TabIndex = 0;
@@ -437,7 +438,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(772, 290);
+            this.tabPage3.Size = new System.Drawing.Size(1037, 343);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "REPORTES";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -446,7 +447,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 247);
+            this.label5.Location = new System.Drawing.Point(8, 292);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(54, 35);
             this.label5.TabIndex = 4;
@@ -456,7 +457,7 @@
             // 
             this.LblGananciaDia.AutoSize = true;
             this.LblGananciaDia.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblGananciaDia.Location = new System.Drawing.Point(55, 253);
+            this.LblGananciaDia.Location = new System.Drawing.Point(57, 298);
             this.LblGananciaDia.Name = "LblGananciaDia";
             this.LblGananciaDia.Size = new System.Drawing.Size(163, 27);
             this.LblGananciaDia.TabIndex = 3;
@@ -464,7 +465,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(625, 243);
+            this.button4.Location = new System.Drawing.Point(893, 298);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(141, 39);
             this.button4.TabIndex = 2;
@@ -474,7 +475,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(469, 243);
+            this.button3.Location = new System.Drawing.Point(737, 298);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(141, 39);
             this.button3.TabIndex = 1;
@@ -487,14 +488,14 @@
             this.tblListaReportes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tblListaReportes.Location = new System.Drawing.Point(6, 6);
             this.tblListaReportes.Name = "tblListaReportes";
-            this.tblListaReportes.Size = new System.Drawing.Size(760, 231);
+            this.tblListaReportes.Size = new System.Drawing.Size(1025, 283);
             this.tblListaReportes.TabIndex = 0;
             // 
             // LblHora
             // 
             this.LblHora.AutoSize = true;
             this.LblHora.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblHora.Location = new System.Drawing.Point(666, 9);
+            this.LblHora.Location = new System.Drawing.Point(926, 13);
             this.LblHora.Name = "LblHora";
             this.LblHora.Size = new System.Drawing.Size(97, 38);
             this.LblHora.TabIndex = 2;
@@ -518,7 +519,7 @@
             // 
             this.LblFecha.AutoSize = true;
             this.LblFecha.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblFecha.Location = new System.Drawing.Point(536, 45);
+            this.LblFecha.Location = new System.Drawing.Point(851, 49);
             this.LblFecha.Name = "LblFecha";
             this.LblFecha.Size = new System.Drawing.Size(55, 23);
             this.LblFecha.TabIndex = 4;
@@ -528,7 +529,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 431);
+            this.ClientSize = new System.Drawing.Size(1050, 484);
             this.Controls.Add(this.LblFecha);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.LblHora);

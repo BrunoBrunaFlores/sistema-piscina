@@ -229,6 +229,10 @@ namespace SISTEMA_PISCINA
             BQ.RowFilter = string.Format(" Hora LIKE '%{0}%'", txtBuscaCandado.Text);
             tblListaTemporal.DataSource = BQ;
         }
-        
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
